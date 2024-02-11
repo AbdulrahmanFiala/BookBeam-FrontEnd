@@ -29,7 +29,7 @@ export const CheckoutAndReviewBox: React.FC<{
           </p>
         );
       } else if (!props.isCheckedOut) {
-        <p className="text-danger">Too many books checked out.</p>;
+        return <p className="text-danger">Too many books checked out.</p>;
       }
     }
     return (
