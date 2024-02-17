@@ -22,14 +22,17 @@ export const Heros = () => {
               {authState?.isAuthenticated ? (
                 <Link
                   type="button"
-                  className="btn main-color btn-lg text-white"
+                  className="dev-btn main-color btn-lg text-white"
                   to="search"
                 >
                   Explore top books
                 </Link>
               ) : (
-                <Link className="btn main-color btn-lg text-white" to="/login">
-                  Sign up
+                <Link
+                  className="dev-btn main-color btn-lg text-white"
+                  to="/login"
+                >
+                  Sign in
                 </Link>
               )}
             </div>
@@ -72,14 +75,17 @@ export const Heros = () => {
               {authState?.isAuthenticated ? (
                 <Link
                   type="button"
-                  className="btn main-color btn-lg text-white"
+                  className="dev-btn main-color btn-lg text-white"
                   to="search"
                 >
                   {" "}
                   Explore top books
                 </Link>
               ) : (
-                <Link className="btn main-color btn-lg text-white" to="/login">
+                <Link
+                  className="dev-btn main-color btn-lg text-white"
+                  to="/login"
+                >
                   Sign up
                 </Link>
               )}

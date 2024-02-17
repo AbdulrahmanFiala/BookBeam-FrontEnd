@@ -132,7 +132,7 @@ export const ChangeQuantityOfBook: React.FC<{
           </div>
         </div>
         <button
-          className="m1 btn btn-md main-color text-white"
+          className="m1 dev-btn bg-primary btn-md  text-white"
           onClick={() => increaseQuantity()}
         >
           Add Quantity

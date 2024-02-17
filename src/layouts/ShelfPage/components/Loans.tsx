@@ -161,7 +161,7 @@ export const Loans = () => {
                         Help other find their adventure by reviewing your loan.
                       </p>
                       <Link
-                        className="btn btn-primary"
+                        className="dev-btn btn-primary"
                         to={`/checkout/${shelfCurrentLoan.book.id}`}
                       >
                         Leave a review
@@ -182,7 +182,7 @@ export const Loans = () => {
         ) : (
           <>
             <h3 className="mt-3">Currently no loans</h3>
-            <Link className="btn btn-primary" to={`search`}>
+            <Link className="dev-btn btn-primary" to={`search`}>
               Search for a new book
             </Link>
           </>
@@ -253,7 +253,7 @@ export const Loans = () => {
                       Help other find their adventure by reviewing your loan.
                     </p>
                     <Link
-                      className="btn btn-primary"
+                      className="dev-btn btn-primary"
                       to={`/checkout/${shelfCurrentLoan.book.id}`}
                     >
                       Leave a review
@@ -274,7 +274,7 @@ export const Loans = () => {
         ) : (
           <>
             <h3 className="mt-3">Currently no loans</h3>
-            <Link className="btn btn-primary" to={`search`}>
+            <Link className="dev-btn btn-primary" to={`search`}>
               Search for a new book
             </Link>
           </>

@@ -28,7 +28,7 @@ export const LoansModal: React.FC<{
             </h5>
             <button
               type="button"
-              className="btn-close"
+              className="dev-btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
@@ -108,7 +108,7 @@ export const LoansModal: React.FC<{
           <div className="modal-footer">
             <button
               type="button"
-              className="btn btn-secondary"
+              className="dev-btn btn-secondary"
               data-bs-dismiss="modal"
             >
               Close

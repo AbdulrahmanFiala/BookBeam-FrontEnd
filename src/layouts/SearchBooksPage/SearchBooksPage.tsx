@@ -205,7 +205,7 @@ export const SearchBooksPage = () => {
               <h3>Can't find what you looking for</h3>
               <a
                 type="button"
-                className="btn main-color btn-md px-4 md-2 fw-bold text-white blue-background-color-hover {
+                className="dev-btn main-color btn-md px-4 md-2 fw-bold text-white blue-background-color-hover {
                   "
                 href="#"
               >

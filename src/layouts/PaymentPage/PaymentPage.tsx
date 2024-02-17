@@ -21,6 +21,7 @@ export const PaymentPage = () => {
           Headers: { "Content-Type": "application/json" },
         };
         const paymentResponse = await fetch(url, requestOptions);
+        console.log(paymentResponse);
         if (!paymentResponse.ok) {
           throw new Error("Something went wrong");
         }
@@ -130,7 +131,7 @@ export const PaymentPage = () => {
             <button
               disabled={submitDisabled}
               type="button"
-              className="btn btn-md main-color text-white mt-3"
+              className="dev-btn btn-md main-color text-white mt-3"
               onClick={checkout}
             >
               Pay fees
@@ -141,7 +142,11 @@ export const PaymentPage = () => {
       {fees === 0 && (
         <div className="mt-3">
           <h5>You have no fees!</h5>
-          <Link type="button" className="btn main-color text-white" to="search">
+          <Link
+            type="button"
+            className="dev-btn main-color text-white"
+            to="search"
+          >
             Explore top books
           </Link>
         </div>

@@ -82,7 +82,7 @@ export const PostNewMessage = () => {
           <div>
             <button
               type="button"
-              className="btn btn-primary mt-3"
+              className="dev-btn btn-primary mt-3"
               onClick={submitNewQuestion}
             >
               Submit Question

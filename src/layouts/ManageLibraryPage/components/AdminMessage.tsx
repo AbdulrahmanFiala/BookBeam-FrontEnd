@@ -47,7 +47,7 @@ export const AdminMessage: React.FC<{
             <div>
               <button
                 type="button"
-                className="btn btn-primary mt-3"
+                className="dev-btn btn-primary mt-3"
                 onClick={() => {
                   submitBtn();
                 }}
