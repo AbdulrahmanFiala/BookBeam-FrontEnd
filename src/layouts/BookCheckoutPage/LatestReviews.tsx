@@ -9,7 +9,7 @@ export const LatestReviews: React.FC<{
 }> = (props) => {
   return (
     <div className={props.mobile ? "mt-3" : "row mt-5"}>
-      <div className={props.mobile ? "" : "col-sm-2 col-md-2"}>
+      <div className={props.mobile ? "" : "col-sm-3 col-md-3"}>
         <h2>Latest Reviews: </h2>
       </div>
       <div className="col-sm-10 col-md-10">
@@ -22,7 +22,7 @@ export const LatestReviews: React.FC<{
             <div className="m-3">
               <Link
                 type="button"
-                className="btn main-color btn-md text-white"
+                className="dev-btn main-color btn-md text-white"
                 to={`/reviewlist/${props.bookId}`}
               >
                 Reach all reviews.
