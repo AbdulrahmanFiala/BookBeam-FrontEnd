@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# BookBeam-FrontEnd 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+BookBeam is a library web application designed to efficiently manage web-based libraries. It provides a comprehensive set of features for both users and administrators, facilitating easy access to library resources and seamless management of library operations. Identity management is handled using Okta for secure authentication and authorization.
 
-## Available Scripts
+### User Features:
+- Browse available books.
+- Search for a certain book.
+- View the details of a certain book.
+- Check out a certain book.
+- Review a book and explore previous reviews.
+- Manage book loans.
+- Return a book.
+- Renew a book loan.
+- Browse previously checked-out books.
+- Pay fees for late books using Stripe.
+- Ask questions to the admin.
+- Explore previously answered questions.
 
-In the project directory, you can run:
+### Admin Features:
+- Admin panel with secure access controls.
+- Answer users' questions.
+- Change the quantity of a certain book.
+- Add new books to the library.
+- Delete books from the library.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Prerequisites
+- Node.js installed.
+- npm (Node Package Manager) installed.
 
-### `npm test`
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AbdulrahmanFiala/BookBeam-FrontEnd.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
+   ```bash
+   cd "BookBeam-FrontEnd"
 
-### `npm run build`
+3. Switch to the development branch:
+   ```bash
+   git checkout development
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Run the project using npm:
+   ```bash
+   npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+Once the application is running, you can access it in your web browser at:
+[http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+For the backend of the application, you can refer to the [BookBeam-BackEnd](https://github.com/AbdulrahmanFiala/BookBeam-FrontEnd) repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
