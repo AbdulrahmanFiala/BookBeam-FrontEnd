@@ -1,4 +1,5 @@
 # BookBeam-FrontEnd 
+![BookBeam Landing Page](https://github.com/AbdulrahmanFiala/BookBeam-FrontEnd/blob/master/Demos/BookBeam.png)
 
 ## Description
 BookBeam is a library web application designed to efficiently manage web-based libraries. It provides a comprehensive set of features for both users and administrators, facilitating easy access to library resources and seamless management of library operations. Identity management is handled using Okta for secure authentication and authorization.
