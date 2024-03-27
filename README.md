@@ -54,5 +54,5 @@ BookBeam is a library web application designed to efficiently manage web-based l
 Once the application is running, you can access it in your web browser at:
 [http://localhost:3000](http://localhost:3000)
 
-For the backend of the application, you can refer to the [BookBeam-BackEnd](https://github.com/AbdulrahmanFiala/BookBeam-FrontEnd) repository.
+For the backend of the application, you can refer to the [BookBeam-BackEnd](https://github.com/AbdulrahmanFiala/BookBeam-BackEnd) repository.
 
