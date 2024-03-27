@@ -44,8 +44,17 @@ BookBeam is a library web application designed to efficiently manage web-based l
 3. Switch to the development branch:
    ```bash
    git checkout development
+   
+4. Set up environment variables:
+   - Rename the `.env-example` file to ".env" in the root directory.
+   - Fill the following variables in the `.env` file:
+     ```plaintext
+     REACT_APP_BACKEND_BASE_URL=your_backend_api_base_url
+     REACT_APP_OKTA_CLIENT_ID=your_OKTA_client_id
+     REACT_APP_OKTA_ISSUER=your_OKTA_issuer
+     ```
 
-4. Run the project using npm:
+5. Run the project using npm:
    ```bash
    npm start
 
@@ -54,5 +63,5 @@ BookBeam is a library web application designed to efficiently manage web-based l
 Once the application is running, you can access it in your web browser at:
 [http://localhost:3000](http://localhost:3000)
 
-For the backend of the application, you can refer to the [BookBeam-BackEnd](https://github.com/AbdulrahmanFiala/BookBeam-FrontEnd) repository.
+For the backend of the application, you can refer to the [BookBeam-BackEnd](https://github.com/AbdulrahmanFiala/BookBeam-BackEnd) repository.
 
