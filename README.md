@@ -31,6 +31,7 @@ BookBeam is a library web application designed to efficiently manage web-based l
 ### Prerequisites
 - Node.js installed.
 - npm (Node Package Manager) installed.
+- Okta Account
 
 ### Steps
 1. Clone the repository:
